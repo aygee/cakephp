@@ -211,6 +211,7 @@ class Controller implements EventListenerInterface, EventDispatcherInterface
      * Holds all passed params.
      *
      * @var mixed
+     * @TODO Deprecate and replace with __get + warning
      */
     public $passedArgs = [];
 
