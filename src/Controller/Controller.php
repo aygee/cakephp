@@ -197,7 +197,7 @@ class Controller implements EventListenerInterface, EventDispatcherInterface
      * @see \Cake\View\View
      */
     protected $_validViewOptions = [
-        'viewVars', 'helpers', 'name', 'plugin', 'passedArgs'
+        'passedArgs'
     ];
 
     /**
